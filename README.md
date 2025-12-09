@@ -1,6 +1,5 @@
 # Weather Image Classification
-### Stats 362
-### Fall 2025
+### Stats 362 - Fall 2025
 ### Team Members: Isabella Toth, Sana Nanlawala, Nicole Marcatoma 
 
 ## Introduction
