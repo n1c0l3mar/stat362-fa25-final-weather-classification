@@ -11,9 +11,18 @@ We use the Weather Dataset from Kaggle, which contains a large collection of lab
 [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jehanbhathena/weather-dataset)
 
 ## Directory 
-- `final_interim_report.html` - A milestone progress report covering data exploration, modeling attempts, results, and next steps.
+### Baseline Models 
 - `preliminary_model.ipynb` - Baseline model setup and initial training runs.
 - `preliminary_model_updated.ipynb` - Updated version of the baseline model with improved structure and training adjustments.
+
+### Interim Report
+- `final_interim_report.html` - A milestone progress report covering data exploration, modeling attempts, results, and next steps.
+
+### Model Iterations
 - `model_attempt2.ipynb` - Second model attempt with larger image size and training improvements.
 - `model_attempt3.ipynb` - Third model attempt using higher resolution input and better handling of class imbalance.
+
+### Final Model 
 - `final_model.ipynb` - Final model using ResNet50 with improved training strategy and class balancing.
+
+
