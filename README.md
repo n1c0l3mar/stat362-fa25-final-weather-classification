@@ -1,6 +1,6 @@
 # Weather Image Classification
 ### Stats 362 - Fall 2025
-### Team Members: Isabella Toth, Sana Nanlawala, Nicole Marcatoma 
+Team Members: Isabella Toth, Sana Nanlawala, Nicole Marcatoma 
 
 ## Introduction
 This repository contains our work for a weather image classification project, where we aim to build a deep learning model capable of recognizing weather conditions from images. Throughout the project, we perform data preprocessing, exploratory analysis, and multiple modeling attempts using CNN-based models.
