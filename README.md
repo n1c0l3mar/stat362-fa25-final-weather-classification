@@ -12,15 +12,15 @@ We use the Weather Dataset from Kaggle, which contains a large collection of lab
 
 ## Directory 
 ### Baseline Models 
-- `preliminary_model.ipynb` - Baseline model setup and initial training runs.
-- `preliminary_model_updated.ipynb` - Updated version of the baseline model with improved structure and training adjustments.
-
+- `preliminary_model.ipynb` - A simple baseline CNN trained on smaller images to establish an initial performance benchmark.
+- `preliminary_model_updated.ipynb` - Improved baseline model with cleaner training structure, extended training, and slight tuning to better stabilize learning.
+  
 ### Interim Report
 - `final_interim_report.html` - A milestone progress report covering data exploration, modeling attempts, results, and next steps.
 
 ### Model Iterations
-- `model_attempt2.ipynb` - Second model attempt with larger image size and training improvements.
-- `model_attempt3.ipynb` - Third model attempt using higher resolution input and better handling of class imbalance.
+- `model_attempt2.ipynb` - Second attempt where performance was improved by increasing image size to 128×128, adding data augmentation, BatchNorm, Dropout, learning-rate scheduling, and early stopping. 
+- `model_attempt3.ipynb` - Third attempt scaling images to 224×224 (ResNet input size), reducing augmentation, introducing class-weighted loss to address imbalance, and continuing early stopping.
 
 ### Final Model 
 - `final_model.ipynb` - Final model using ResNet50 with improved training strategy and class balancing.
