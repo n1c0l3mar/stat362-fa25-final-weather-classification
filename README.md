@@ -25,4 +25,5 @@ We use the Weather Dataset from Kaggle, which contains a large collection of lab
 ### Final Model 
 - `final_model.ipynb` - Final model using ResNet50 with improved training strategy and class balancing.
 
-
+## Key Results
+Summary of key results here "You may reuse plots or metrics from your final presentation slides." 
