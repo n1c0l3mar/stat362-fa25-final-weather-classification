@@ -27,3 +27,8 @@ Link to dataset: [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jeha
 
 ## Key Results
 Summary of key results here "You may reuse plots or metrics from your final presentation slides." 
+
+## Notes on Reproducability
+- Dataset can be accessed here, as it is too large over Github [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jehanbhathena/weather-dataset)
+- Pyproject.toml has dependencies and python requirements listed
+- GPU is preferred over CPU to run models more efficiently
