@@ -25,6 +25,9 @@ Link to dataset: [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jeha
 ### Final Model 
 - `final_model.ipynb` - Final model using ResNet50 with improved training strategy and class balancing.
 
+### Figures 
+- `figures` - Folder containing our plots from our presentation. 
+
 ## Key Results
 Summary of key results here "You may reuse plots or metrics from your final presentation slides." 
 
