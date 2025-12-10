@@ -39,9 +39,22 @@ The accompanying metrics image also shows strong final model performance across 
 ![Final Metrics](figures/final-model-metrics.png)
 
 
-## Notes on Reproducability
-- Dataset can be accessed here, as it is too large over Github [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jehanbhathena/weather-dataset)
-- `pyproject.toml` has dependencies and python requirements listed
+## Notes on Reproducability & Obtaining Data 
+- Use of Python Version 3.12.12 is suggested
 - GPU is preferred over CPU to run models more efficiently
+- `pyproject.toml` has dependencies and python requirements listed
+- Dataset can be accessed here, as it is too large over Github [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jehanbhathena/weather-dataset)
+
+  To obtain data for reproducability:
+  1. Use link provided above to download data
+  2. Upload data file to Google Drive
+  3. Run the following code to connect data to notebook file
+
+ ```python
+from google.colab import drive
+drive.mount('/content/drive')
+!unzip -q /content/drive/MyDrive/dataset.zip -d /content/dataset
+path = '/content/dataset/dataset'
+```
 
 Link to presentation: [Weather Classification](https://docs.google.com/presentation/d/15wyyW8vrFRf-gUxqAQqmWRKfeO6eIrk3__d2vayoMX4/edit?usp=sharing) 
