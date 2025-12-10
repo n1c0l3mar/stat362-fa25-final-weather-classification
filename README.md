@@ -29,8 +29,12 @@ Link to dataset: [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jeha
 - `figures` - Folder containing our plots from our presentation. 
 
 ## Key Results
+Our model performance improved over multiple iterations as shown in the tables. The baseline CNN reached 68.03% accuracy, while our second CNN configuration underperformed at 56.96%. Switching to a ResNet-based approach significantly boosted results to 87.40%, and further tuning with data balancing and optimization produced our final model accuracy of 92.72%.
+
 
 ![Metrics](figures/metrics.png)
+
+The accompanying metrics image also shows strong final model performance across precision (0.9196), recall (0.9192), and F1-score (0.9185), indicating reliable predictions with balanced sensitivity and precision across classes.
 
 ![Final Metrics](figures/final-model-metrics.png)
 
