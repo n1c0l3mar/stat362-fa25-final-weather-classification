@@ -13,7 +13,7 @@ Link to dataset: [Weather Dataset (Kaggle)](https://www.kaggle.com/datasets/jeha
 ## Directory 
 ### Baseline Models 
 - `preliminary_model.ipynb` - A simple baseline CNN trained on smaller images to establish an initial performance benchmark.
-- `preliminary_model_updated.ipynb` - Improved baseline model with cleaner training structure, extended training, and slight tuning to better stabilize learning.
+- `baseline_model.ipynb` - Improved baseline model with cleaner training structure, extended training, and slight tuning to better stabilize learning. Used to further enhance intermediate, final models. 
   
 ### Interim Report
 - `final_interim_report.html` - A milestone progress report covering data exploration, modeling attempts, results, and next steps.
